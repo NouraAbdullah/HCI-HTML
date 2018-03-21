@@ -1,25 +1,31 @@
 <style>
 		/* body tag selector: define a default font. Never use Comic Sans. */
 		body {
-			font-family: "Comic Sans MS";
+			 background-color: whit;
 		}
 
 		/* .section class selector: set the font of all tags with class="section" */
 		.section {
-			font-family: arial;
+			font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+        
 		}
 
 		/* h2 descendants of .section class: set a background color for all h2 text in sections */
 		.section h2 {
-			background-color: rgb(255,255,220);
-			font-family: Georgia;
-			color: maroon;
+			background-color: #000000(255,255,220);
+			font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+			color: #8A2BE2;
+		}
+      .section h1 {
+			background-color: #000000(255,255,220);
+			font-family:TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+			color: #5F9EA0;
 		}
 
 		/* #courses id with <a> tag selector:
 			set the hover properties of links within #courses element */
 		#courses a:link {
-			color:rgb(100,0,0) ;
+			color:#0000FF(100,0,0) ;
 		}
 		#courses a:hover {
 			color:red;
@@ -33,7 +39,7 @@
 
 		/* span tag selector: color all span tags red */
 		span {
-			color: red;
+			color: #8A2BE2 ;
 		}
 
 		/* span with .serious class: set font to Impact */
@@ -43,7 +49,7 @@
 
 		/* span with .silly class: set font to Comic Sans */
 		span.silly {
-			font-family: "Comic Sans MS";
+			font-family: "Times New Roman", Times, serif;
 		}		
 
 		/* Put the image on the right */
@@ -57,12 +63,13 @@
 
 		/* Color every other row (tr) light grey */
 		tr:nth-child(even) {
-			background:rgb(220,220,220);
+			background: rgb(220,220,220);
+        color : 
 		}
 
 		/* Color green the text of currentlytaking rows */
 		tr.currentlytaking {
-			color:green;
+			color:  ;
 		}
 
 		/* Align and style the "For Credit" and "Listener" cells */
@@ -70,6 +77,7 @@
 			background-color:white;
 			text-align:center;
 			font-weight:bold;
+            color: #8A2BE2
 		}
 
 	</style>
