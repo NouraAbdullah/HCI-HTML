@@ -1,115 +1,347 @@
-
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!--Here's a worked example of HTML and CSS from Lab 1!
-	HTML consists of a hierarchy of elements.
+    <title>Noura home page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+      
+
+    <!-- Add custom CSS here -->
 	
-	Each element has an opening tag and (most of the time) a closing tag.
-	For example, the whole document is enclosed in the html element, delimited by the <html> and </html> tags.
-	You can also close tags immediately using a slash before the > symbol: A newline is represented by <br />.
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme1.min.css" rel="stylesheet">
+     
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+  </head>
 
-	Each tag can have attributes set as name="value" pairs.
-	For example, the image element needs a source URL for the image file: <img src="dog.jpg" />
--->
+  <body>
+  <div id="boxWrapp">
+    
+    <!-- Full Page Image Header Area -->
+    <div id="about" class="header">
+	<div class="maskHeader"></div>
+     	<div class="vert-text">
+			<h1>Noura Abdullah</h1>
+			<h2>Computer Sciences Student </h2>
+			
+		</div>
+    <div class="navbar-nav">
+    <a href="#aboutMore" class="btn btn-link btnAbout"><i class="fa fa-angle-down fa-2x"></i></a>
+    </div>
+    </div>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#about">Noura Abdullah</a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           
+            <li class="current"><a href="#about">About</a></li>
+            <li><span>/</span></li>
+             
+            <li><a href="#Course">Courses</a></li>
+             <li><span>/</span></li>
+             
+            <li><a href="#Publish">Publish New Event</a></li>
+            <li><span>/</span></li>
+             
+            <li><a href="#contact">Contact</a></li>
+             
+          </ul>
+        
+         
+        </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+	  
+    <!-- /Full Page Image Header Area -->
+  
+    <!-- Intro -->
+    <div id="aboutMore" class="page">
+      <div class="container">
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page-white">
+				<h2 class="text-center">About Me</h2>	
+				<span class="line-title"></span>
+			</div>
+		   </div><!-- end col -->
+		  </div><!-- end row -->
+		</div>
+        <div class="row">
+           <div class="col-md-10 col-md-offset-1">
+			<div class="build about-content">
+				<p class="text-center">Hello, I&#39;m Noura Abdullah Alqhtani. I&#39;m a Computer Sciences student at King Soud university,I'm 22 years old.I had take some Courses such as:Entrepreneurship, Human Resources Management and First Aid.I&#39;mI nterested in artificial intelligence. I have Some programming languages such as Java, Python, and C. I&#39;m Beginner in web development and I think its will become my favorite like the field of artificial intelligence.</p>
+				
+			</div>
+          </div><!-- end col -->
+		  
+        </div><!-- end row -->
+      </div>
+    
+    <!-- /Intro -->   
 
-<html>
-<head>
-	 <link rel="stylesheet" type="text/css" href="style.css">
-	<!-- The title shows up in the browser toolbar -->
-	<title>Noura Home page </title>
-</head>
+    <!-- Portfolio -->
+    <div id="Course" class="page ">
+      <div class="container">
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page-gray">
+				<h2 class="text-center">My Courses</h2>	
+				<span class="line-title"></span>
+			</div>
+		   </div><!-- end col -->
+		  </div><!-- end row -->
+          <h5>I have taken a lot of courses and here are my favorite courses :</h5>
+        
+<h4>
+<table width="700" high="500">
+  <tr>
+    <th>Course#</th>
+    <th>Course Name </th>
+    <th>year</th>
+  </tr>
+  <tr>
+    <td>  CSC111</td>
+    <td>  Java 1</td>
+    <td>  2015</td>
+  </tr>
+  <tr>
+    <td>CSC113</td>
+    <td>java 2</td>
+    <td>2015</td>
+  </tr>
+  
+  <tr>
+    <td>CSC212</td>
+    <td>Data struture</td>
+    <td>2016</td>
+  </tr>
+    <tr>
+    <td>CSC361</td>
+    <td>artificial intelligence</td>
+    <td>2017</td>
+  </tr>
+    <tr>
+    <td>CSC311</td>
+    <td>Design and analysis of algorithms</td>
+    <td>2017</td>
+  </tr>
+  <tr>
+    <td>CSC383</td>
+    <td>Data base 2</td>
+    <td>2017</td>
+  </tr>
+  <tr>
+    <td>CSC440</td>
+    <td>HCI</td>
+    <td>2018</td>
+  </tr>
+    <tr>
+    <td>IS463</td>
+    <td>Data mining </td>
+    <td>2018</td>
+  </tr>
+    <tr>
+    <td>CSC462</td>
+    <td>machine learning </td>
+    <td>2018</td>
+  </tr>
+    
+</table></h4>
+		  
+    <!--pub --> 
+           <div id="Publish" class="page ">
+      <div class="container">
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page-gray">
+				<h2 class="text-center">Publish New Event</h2>	
+				<span class="line-title"></span>
+              </div>   
+              </div><!-- end col -->
+		  </div><!-- end row -->
+<div id="dd">
+      <form id="dd">
+          
+          <meta charset = 'utf-8'>
+      
+<h5> Name:<br/><input type='text' id = "name"/></h5>
+          
+<h5> Event Name: <br/><input type='text' id = "Eventname"/> </h5>
+          
+<h5>Event Date:<br/><input type="date" name="bday" id="date"> </h5>
+          
+    <h5>Event location:<br/> <input list="location" name="mylocation"  id="ll" ></h5>
+<datalist id="location">
+  <option value="Computer and information college" ></option>
+  <option value="Sciences college"></option>
+  <option value="The main lobby"></option>
+  <option value="Literature college"></option>
+  <option value="Education college"></option>
+    <option value="The central Library"></option>
+</datalist>
+          
+<div id="rate">
+    <h5>Event Type: </h5>
+  <h6>  <input type="radio" name="eventType" value="Pravit " id ="r1"> Pravit<br/>
+        <input type="radio" name="eventType" value="Public" id="r2"> Public</h6> 
+          </div>
+          
+       
+          <h5>Requer: </h5>
+    <h6> <input class="messageCheckbox"  type="checkbox" name="R" value="stage"  >stage &emsp;
+         <input class="messageCheckbox"  type="checkbox" name="R" value="microphone" >microphone &emsp; <br/>
+  
+ <br/> <input class="messageCheckbox" type="checkbox" name="R" value="Tables" >Tables &emsp;
+  <input class="messageCheckbox" type="checkbox" name="R" value="Chairs" >Chairs &emsp;<br/>
+ </h6>
+    
+<h6>Other:</h6> <textarea rows="4" cols="50" id="Req"> </textarea> <br/>
+          <br/>
 
-<body>
-  <div class="section" id="home">
-	<!--A header for the page-->
-	<h1>Noura Home page..</h1>
+      <!--    <h5> Event Logo :  </h5>
+   <p>  <input id="img" name="favourite_image" type="file" >
+          </p> -->
 
-	<!--My photo-->
-	<img id="photo" src="data:image/png;base64,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">	
-
-	<!--Divs and spans can be used to logically and structurally organize your page
-		Here we use divs to separate different sections of the page: about, courses, interests and pet information
-		* divs are block elements and are separated by newlines or breaks in the page
-		* spans are inline elements and are displayed without newlines between them
-	-->
-
-	<!--Each div (and any other tag) can have a class and id.
-		The class can be shared with other tags.
-		The id is unique to this tag.
-		The class and id can be selected by CSS rules to style groups of elements differently.
-	-->
-	<div class="section" id="about">
-		<!--An h2 header - smaller than the h1 header-->
-		<h2>About</h2>
-
-		<!--<p> tags are paragraphs have newlines before and after them-->
-		<p>Hello !</p>
-		<!--The <a> tag is a link.
-			The text between the <a> and </a> tags is the displayed text.
-			The href attribute has the link's target URL.-->
-		<p>Hi, I'm Noura I love User Interface Design</p>		
+          <!-- button--> 
+          
+         <button type="button" onclick="Myfun()"> Submit.</button>
+          </form>
+    </div>
+  
+          
+</div><!-- end container -->
 	</div>
-
-	<div class="section" id="courses">
-		<h2>Courses</h2>
-		<p>Here are my courses :</p>
-
-		<!--Tables can be used to group text or images into rows and columns-->
-		<table>
-			<!--Each <tr> is a row-->
-			<tr>
-				<!--Each <th> or <td> is a cell.
-					The number of cells in a row determines the number of columns in the table.
-				-->
-				<th>Course Number</th>
-				<th>Course Title</th>
-				<th>Semester Taken</th>
-			</tr>
-			<tr>
-				<!--A <td> or cell can span multiple columns using the colspan attribute-->
-				<td class="enrollheader" colspan=3>Currently takeing</td>
-			</tr>
-			<!--We give certain rows the "currentlytaking" class, so we can color them differently in a CSS rule-->
-			<tr >
-				<td><a  >CSC440</a></td>
-				<td>User Interface Design</td>
-				<td>2018 </td>
-			</tr>			
-			<tr>
-				<td><a> IS463</a></td>
-				<td>Data Mining</td>
-				<td>2018</td>
-			</tr>
-			<tr>
-				<td><a>CSC444</a></td>
-				<td>Introduction to Algorithms</td>
-				<td>Fall 2013</td>
-			</tr>
-			<tr>
-				<td class="enrollheader " colspan=3>Was Taken</td>
-			</tr>
-			<tr>
-				<td><a >CSC360</a></td>
-				<td>Machine Learning</td>
-				<td>2017</td>
-			</tr>
-			<tr>
-				<td><a >CSC261</a></td>
-				<td>Database Systems</td>
-				<td>2016</td>
-			</tr>
-		</table>
-	</div>
-
-	<div class="section" id="interests">
-		<h2>Interests</h2>
-		<!--Spans are displayed inline, but allow you to identify text in CSS rules-->
-		I am interested <span class="silly">HCI</span>, <span class="silly">AI</span>, and <span class="silly">Machine Learning </span>.
-	</div>
-
-
-	<!--This is the style section.
-		It consists of CSS rules, which could also be included as a separate file.-->
+          
+          
+    <!--contact-->
+    <div id="contact" class="page">
+		<div class="container">
+		<div class="row">
+          <div class="col-md-10  col-md-offset-1">
+		    <div class="build title-page-white">
+				<h2 class="text-center">Get In Touch With Me</h2>	
+				<span class="line-title"></span>
+			</div>
+		   </div><!-- end col -->
+		  </div><!-- end row -->
+	  	<div class="row">
+			<div class="col-md-4 col-md-offset-4 ">
+				<div class="build contact clearfix">
+					<ul class="table-contact">
+						<li class="clearfix">
+						<div class="row-contact">
+							<div class="cell-contact w-cell">
+							<span class="fa fa-map-marker"></span>
+							</div>
+							<div class="cell-contact">
+							<p>Khadija Street no.3081 Riydh.<p>
+							</div>
+						</div>
+						</li>
+						<li class="clearfix">
+						<div class="row-contact">
+							<div class="cell-contact w-cell">
+							<span class="fa fa-phone"></span>
+							</div>
+							<div class="cell-contact">
+							<p>0551139215<p>
+							</div>
+						</div>
+						</li>
+						<li class="clearfix">
+						<div class="row-contact">
+							<div class="cell-contact w-cell">
+							<span class="fa fa-envelope"></span>
+							</div>
+							<div class="cell-contact">
+							<p>nor-2012@hotmail.com</p>
+							</div>
+						</div>
+						</li>
+						
+					</ul>
+							
+				</div>
+			</div><!-- end col -->
+		
+		</div><!-- end row -->
 	
-</body>
+	  </div><!-- end container -->
+	</div>
+    <!--contact-->
+    
+    <!-- Footer -->
+ 
+<footer class="bg-primary">
+    
+
+     <div class="container"> 
+       <div class="row">
+           <div class="col-md-4 ">
+				<!--<div class="build cp-right">-->
+					<p>Made with love for HCI course </p>
+				<!--</div> end build -->
+			</div> <!--end col -->
+
+			
+			<div class="col-md-4 text-center">
+			<div class=" build top-scroll">
+			<a href="#about"><i class="fa fa-angle-up scroll"></i></a>
+			</div>
+			</div>
+           
+           
+     </div>
+     </div> 
+    <p>                  </p>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+          <!-- Here java script which I have get it from internet-->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+   
+    <script src="js/modernizr.js"></script>
+	<script src="js/jquery.sticky.js" ></script>
+	<script src="js/jquery.quicksand.js" ></script>
+
+	 <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js" ></script>
+    
+   <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/script.js"></script>
+           <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    
+  <!-- Here the java script which I have write it -->
+   <script language="JavaScript" src="js/method.js"> </script>
+   
+      
+           
+
+  </div> 
+  </body>
+
 </html>
